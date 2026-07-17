@@ -105,6 +105,7 @@ To train and evaluate the model under any of the SOTA split settings, simply run
 During training, the script will output loss curves and validation metrics (MPJPE in mm, PA-MPJPE in mm, PCK@50, and PCK@20). The best checkpoints will be automatically saved under the save path folder specified in your config (`pose_weights/` by default).
 
 If you use this work, please cite as:
+```
 @misc{h2026cmambaposephysicsinformedcomplexmamba,
       title={C-MambaPose: A Physics-Informed Complex Mamba Framework for Cross-Environment WiFi Human Pose Estimation}, 
       author={Phuc Nguyen H},
@@ -114,5 +115,6 @@ If you use this work, please cite as:
       primaryClass={eess.SP},
       url={https://arxiv.org/abs/2606.13700}, 
 }
+```
 
 The codebase was referenced by: https://github.com/cseeyangchen/DT-Pose, and https://github.com/state-spaces/mamba
